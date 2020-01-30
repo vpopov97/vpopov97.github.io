@@ -1,0 +1,46 @@
+
+	TABLE {
+
+	border-collapse: collapse; 
+	}
+	TD, TH {
+	padding: 5px; 
+	border: 1px solid black; 
+	}
+	TH {
+	background: #E1FA71; 
+	}
+	tbody tr:hover {
+    background: #A0F06C; /* Цвет фона при наведении */
+    color: #404040; /* Цвет текста при наведении */
+   }
+#parent_popup {
+    background: #000;
+    height: 100%;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+#popup {
+    background-color: white;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    left: 40%;
+    color: #f00;
+    width: 300px;
+}
+
+#popup   {
+    color: black;
+    
+}
+#place{
+   font-size:10pt;
+   margin-bottom: 20px;
+   
+   
+}
